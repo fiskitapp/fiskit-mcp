@@ -38,9 +38,9 @@
   "homepage": "https://fiskit.com.ar/developers",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FidelGenre/fiskit-mcp.git"
+    "url": "git+https://github.com/fiskitapp/fiskit-mcp.git"
   },
   "bugs": {
-    "url": "https://github.com/FidelGenre/fiskit-mcp/issues"
+    "url": "https://github.com/fiskitapp/fiskit-mcp/issues"
   }
 }
