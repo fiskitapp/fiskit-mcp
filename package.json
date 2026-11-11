@@ -1,0 +1,46 @@
+{
+  "name": "@fiskit/mcp",
+  "version": "0.1.0",
+  "description": "MCP server for FisKit: lets AI agents issue Argentine electronic invoices with ARCA (ex AFIP), look them up and query CUITs.",
+  "type": "module",
+  "bin": {
+    "fiskit-mcp": "index.js"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "server.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@fiskit/node": "^0.1.3",
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "arca",
+    "afip",
+    "factura electronica",
+    "invoicing",
+    "argentina",
+    "fiskit"
+  ],
+  "license": "MIT",
+  "homepage": "https://fiskit.com.ar/developers",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FidelGenre/fiskit-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FidelGenre/fiskit-mcp/issues"
+  }
+}
